@@ -1,9 +1,0 @@
-# depslib dependency file v1.0
-1573944579 source:/media/FileDisk/Student_Exercises/Exercise_5/f5/a2f5.c
-	<stdio.h>
-	"simpio.h"
-
-1573953467 source:/media/FileDisk/Student_Exercises/Exercise_5/f5/a6f5.c
-	<stdio.h>
-	<simpio.h>
-

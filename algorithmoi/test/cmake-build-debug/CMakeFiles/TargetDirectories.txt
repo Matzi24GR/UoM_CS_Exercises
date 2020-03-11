@@ -1,3 +1,0 @@
-F:/Student_Exercises/test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-F:/Student_Exercises/test/cmake-build-debug/CMakeFiles/test.dir
-F:/Student_Exercises/test/cmake-build-debug/CMakeFiles/edit_cache.dir

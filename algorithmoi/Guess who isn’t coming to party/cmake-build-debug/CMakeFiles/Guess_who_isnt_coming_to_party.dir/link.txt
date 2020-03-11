@@ -1,1 +1,0 @@
-/usr/bin/cc -g   CMakeFiles/Guess_who_isnt_coming_to_party.dir/SocialFriends.c.o  -o Guess_who_isnt_coming_to_party 
