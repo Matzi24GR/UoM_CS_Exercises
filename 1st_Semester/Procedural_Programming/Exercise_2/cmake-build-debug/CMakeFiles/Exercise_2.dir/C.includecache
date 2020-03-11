@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/Student_Exercises/Exercise_2/a14f2.c
+stdio.h
+-
+simpio.h
+F:/Student_Exercises/Exercise_2/simpio.h
+
+F:/Student_Exercises/Exercise_2/a7f2.c
+stdio.h
+-
+simpio.h
+F:/Student_Exercises/Exercise_2/simpio.h
+

@@ -1,0 +1,3 @@
+/media/FileDisk/Student_Exercises/Guess who isn’t coming to party/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/media/FileDisk/Student_Exercises/Guess who isn’t coming to party/cmake-build-debug/CMakeFiles/Guess_who_isnt_coming_to_party.dir
+/media/FileDisk/Student_Exercises/Guess who isn’t coming to party/cmake-build-debug/CMakeFiles/edit_cache.dir

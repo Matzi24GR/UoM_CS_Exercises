@@ -1,0 +1,3 @@
+F:/Student_Exercises/Matziaras_ics20009/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/Student_Exercises/Matziaras_ics20009/cmake-build-debug/CMakeFiles/untitled.dir
+F:/Student_Exercises/Matziaras_ics20009/cmake-build-debug/CMakeFiles/rebuild_cache.dir

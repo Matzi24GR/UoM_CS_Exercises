@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1575998797 source:f:\student_exercises\exercise_8\a10bf6\a10bf6.c
+	<stdio.h>
+	"genlib.h"
+	"simpio.h"
+
