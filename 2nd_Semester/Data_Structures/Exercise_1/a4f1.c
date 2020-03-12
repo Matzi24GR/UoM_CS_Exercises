@@ -13,10 +13,15 @@ typedef enum
 typedef int stoixeio_synolou;
 typedef boolean typos_synolou[megisto_plithos];
 
+void Katholiko(typos_synolou synolo);
 void Dimiourgia_keno(typos_synolou synolo);
 void odd_numbers(typos_synolou synolo);
+void prime_numbers(typos_synolou set);
 boolean Melos(stoixeio_synolou stoixeio, typos_synolou synolo);
 void displayset(typos_synolou set);
+void TomiSynolou(typos_synolou s1, typos_synolou s2, typos_synolou tomi);
+void EnosiSynolou(typos_synolou s1, typos_synolou s2, typos_synolou enosi);
+void DiaforaSynolou(typos_synolou s1, typos_synolou s2, typos_synolou diafora);
 
 int main(){
 
@@ -115,7 +120,6 @@ void TomiSynolou(typos_synolou s1, typos_synolou s2, typos_synolou tomi)
     for (i = 0; i <= megisto_plithos; i++)
         tomi[i] = Melos(i, s1) && Melos(i, s2);
 }
-
 void EnosiSynolou(typos_synolou s1, typos_synolou s2, typos_synolou enosi)
 
 {
