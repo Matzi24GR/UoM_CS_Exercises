@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1431861411 source:g:\courses\data_structures\notes -compus2015\5_trees\code\project_huffman\huffmandecoding.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+

@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1269185080 source:c:\maya\courses\data_structures\c\notes\notes_compus2017\4_lists\code\adt-list\lpwordadt.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LPWordADT.h"
+
+1269185034 c:\maya\courses\data_structures\c\notes\notes_compus2017\4_lists\code\adt-list\lpwordadt.h
+	<ctype.h>
+
+1511513479 source:c:\maya\courses\data_structures\c\notes\notes_compus2017\4_lists\code\project_textconcordance\textconcordance.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"LPWordADT.h"
+

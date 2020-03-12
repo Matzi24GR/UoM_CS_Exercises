@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1511453461 source:c:\maya\courses\data_structures\c\notes\notes_compus2017\4_lists\code\adt-list\l_listchadt.c
+	<stdio.h>
+	"L_ListChADT.h"
+
+1511452679 c:\maya\courses\data_structures\c\notes\notes_compus2017\4_lists\code\adt-list\l_listchadt.h
+	<stdio.h>
+	<stdlib.h>
+
