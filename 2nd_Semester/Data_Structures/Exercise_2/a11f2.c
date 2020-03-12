@@ -127,7 +127,7 @@ void FilterStack(StackType *Stack, StackElementType itemToDelete){
     TraverseStack(tempStack);
   } while(poppedItem!=itemToDelete && Stack->Top > -1);
 
-  while (tempStack.Top>-1) {
+  while (!EmptyStack(tempStack)) {
     Pop(&tempStack,&poppedItem);
     TraverseStack(tempStack);
     Push(Stack,poppedItem);
