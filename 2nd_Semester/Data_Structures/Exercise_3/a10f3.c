@@ -59,7 +59,6 @@ int main() {
 void FillEvenAndOddQueues(QueueType *Even, QueueType *Odd, int *EvenSize, int *OddSize){
 	for(int i=0;i<QueueLimit;i++){
 		QueueElementType item = rand() % QueueLimit;
-		printf("%d\n", item);
 		if (item%2 == 0) {
 			AddQ(Even, item);
 			(*EvenSize)++;
