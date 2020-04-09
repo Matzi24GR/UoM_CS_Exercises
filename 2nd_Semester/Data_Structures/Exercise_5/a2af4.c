@@ -18,10 +18,7 @@ typedef enum {
 void CreateList(ListPointer *List);
 boolean EmptyList(ListPointer List);
 void LinkedInsert(ListPointer *List, ListElementType Item, ListPointer PredPtr);
-void LinkedDelete(ListPointer *List, ListPointer PredPtr);
 void LinkedTraverse(ListPointer List);
-void LinearSearch(ListPointer List, ListElementType Item, ListPointer *PredPtr, boolean *Found);
-void OrderedLimearSearch(ListPointer List, ListElementType Item, ListPointer *PredPtr, boolean *Found);
 
 void append_list_element(ListPointer *List, ListElementType Item);
 
