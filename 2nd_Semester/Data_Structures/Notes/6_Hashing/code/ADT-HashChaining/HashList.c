@@ -40,7 +40,7 @@ void CreateHashList(HashListType *HList)
 		index=index+1;
 	}
 	HList->List[index].Link=EndOfList;
-/*
+
 	printf("HashTable\n");
 	for (index=0;index<HMax;index++)
 	   printf("%d: %d\n",index,HList->HashTable[index]);
@@ -48,7 +48,6 @@ void CreateHashList(HashListType *HList)
     printf("List of keys\n");
 	for (index=0;index<=VMax-1;index++)
 	   printf("%d\t%d\n",index,HList->List[index].Link);
-	   */
 }
 
 boolean FullHashList(HashListType HList)

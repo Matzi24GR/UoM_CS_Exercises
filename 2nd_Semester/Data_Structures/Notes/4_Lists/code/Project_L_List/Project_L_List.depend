@@ -3,9 +3,13 @@
 	<stdio.h>
 	"L_ListADT.h"
 
+1511600591 .h"
+
 1362417182 g:\courses\data_structures\notes -compus2014\4_lists\code\adt-list\l_listadt.h
 	<stdio.h>
 	<stdlib.h>
+
+1511450389 
 
 1362425424 source:g:\courses\data_structures\notes -compus2014\4_lists\code\project_l_list\testl_list.c
 	<stdio.h>
@@ -44,4 +48,32 @@
 1511450389 c:\users\user\google drive\2017-2018\spring 2018\4_lists\code\adt-list\l_listadt.h
 	<stdio.h>
 	<stdlib.h>
+
+1515501943 source:c:\users\gia\dropbox\data_structures\notes-2019\4_lists\code\adt-list\l_listadt.c
+	<stdio.h>
+	"L_ListADT.h"
+
+1511450389 c:\users\gia\dropbox\data_structures\notes-2019\4_lists\code\adt-list\l_listadt.h
+	<stdio.h>
+	<stdlib.h>
+
+1511600591 source:c:\users\gia\dropbox\data_structures\notes-2019\4_lists\code\project_l_list\testl_list.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"L_ListADT.h"
+
+1515501943 source:/mnt/1510DC2539671B65/Users/Alexandros/Dropbox/Data_Structures/Notes-2019-withDocs/4_Lists/code/ADT-List/L_ListADT.c
+	<stdio.h>
+	"L_ListADT.h"
+
+1511450389 /mnt/1510DC2539671B65/Users/Alexandros/Dropbox/Data_Structures/Notes-2019-withDocs/4_Lists/code/ADT-List/L_ListADT.h
+	<stdio.h>
+	<stdlib.h>
+
+1511600591 source:/mnt/1510DC2539671B65/Users/Alexandros/Dropbox/Data_Structures/Notes-2019-withDocs/4_Lists/code/Project_L_List/TestL_List.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"L_ListADT.h"
 
