@@ -1,3 +1,6 @@
 *.exe
 *.o
+*.class
+.classpath
+**/.idea/
 desktop.ini
