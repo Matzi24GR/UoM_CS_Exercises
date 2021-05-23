@@ -1,0 +1,91 @@
+body {
+    background-color: #DFDFDF;
+}
+
+.card {
+    background-color: #F0F0F0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 90%;
+    height: 300px;
+    text-align: center;
+    font-family: arial;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.card h2 {
+    text-align: left;
+    margin-left: 20px;
+    float: left;
+}
+
+.card h3{
+    background-color: #3d3dfac0;
+    color: white;
+    margin-top: 0px;
+    padding: 4px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.main {
+    float: left;
+}
+
+.components {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.split {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    column-gap: 40px;
+}
+
+hr {
+    margin: 40px;
+    margin-top: 0px;
+}
+
+h2 {
+    max-width: 100%;
+    text-align: center;
+}
+
+img {
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    float: right;
+}
+
+.colors ul{
+    list-style:none; padding:0; margin: 0;}
+
+.colors li{
+    margin: 0px;
+}
+
+.colors input{
+    display:none;
+}
+
+.colors input[type="radio"]:checked + .swatch{
+    padding: 2px;
+}
+
+.swatch{
+  display:inline-block;
+  height: 30px;
+  width:30px;
+  margin: 0 5px 0 0 ;
+  border: 1px solid #d4d4d4;
+  border-radius: 100%;
+}

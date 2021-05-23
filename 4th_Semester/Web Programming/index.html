@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Pc builder</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+      <h1>Customize your PC</h1>
+
+      <div class="card">
+        <img src="img/case_white.jpeg" alt="">
+
+        <div class="main">
+          <h2>Current Order</h2>
+          <div class="colors">
+            <h4>Select Color</h4>
+            <ul>
+              <li>
+                <label>
+                  <input type="radio" name="color" value="white">
+                  <span class="swatch" style="background-color:white"></span> White
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="radio" name="color" value="black">
+                  <span class="swatch" style="background-color:black"></span> Black
+                </label>
+              </li>
+              <li>
+                <label>
+                  <input type="radio" name="color" value="red">
+                  <span class="swatch" style="background-color:red"></span> Red
+                </label>
+              </li>
+            </ul> 
+          </div> 
+        </div>
+
+      </div>
+
+      <h2>Select Components</h2>
+      <hr>
+
+      <div class="components">
+        
+        <div class="card">
+          <h3>CPU</h3>
+        </div>
+  
+        <div class="card">
+          <h3>Graphics Card</h3>
+        </div>
+        
+        <div class="split">
+
+          <div class="card">
+            <h3>RAM</h3>
+            <ul>
+              <li>
+                <label>
+                  <input type="radio" name="ram" value="white">
+                  <span class="swatch" style="background-color:white"></span> White
+                </label>
+              </li>
+              <li>
+                <input type="radio" name="ram" value="8gb">
+              </li>
+              <li>
+                <input type="radio" name="ram" value="16gb">
+              </li>
+            </ul> 
+          </div>
+  
+          <div class="card">
+            <h3>Storage</h3>
+          </div>
+
+        </div>
+
+      </div>
+
+    <script src="app.js" defer></script>
+    <noscript>You need to enable JavaScript to view the full site.</noscript>
+  </body>
+</html>
