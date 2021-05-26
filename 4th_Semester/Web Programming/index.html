@@ -10,35 +10,27 @@
       <h1>Customize your PC</h1>
 
       <div class="card">
-        <img src="img/case_white.jpeg" alt="">
-
         <div class="main">
           <h2>Current Order</h2>
+          <br>
+          <h4>Select Color</h4>
           <div class="colors">
-            <h4>Select Color</h4>
-            <ul>
-              <li>
-                <label>
-                  <input type="radio" name="color" value="white">
-                  <span class="swatch" style="background-color:white"></span> White
-                </label>
-              </li>
-              <li>
-                <label>
-                  <input type="radio" name="color" value="black">
-                  <span class="swatch" style="background-color:black"></span> Black
-                </label>
-              </li>
-              <li>
-                <label>
-                  <input type="radio" name="color" value="red">
-                  <span class="swatch" style="background-color:red"></span> Red
-                </label>
-              </li>
-            </ul> 
+            <label>
+              <input type="radio" name="color" value="white">
+              <span class="swatch" style="background-color:white"></span> White
+            </label>
+            <label>
+              <input type="radio" name="color" value="black">
+              <span class="swatch" style="background-color:black"></span> Black
+            </label>
+            <label>
+              <input type="radio" name="color" value="red">
+              <span class="swatch" style="background-color:red"></span> Red 
+            </label>
           </div> 
+          <h3 id="priceText"></h3>
         </div>
-
+        <img src="img/case_white.jpeg" alt="">
       </div>
 
       <h2>Select Components</h2>
@@ -48,37 +40,170 @@
         
         <div class="card">
           <h3>CPU</h3>
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="processor" value="170">
+                <span></span>AMD Ryzen 5 3600
+                <span></span> $170
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="processor" value="260">
+                <span></span>AMD Ryzen 5 3700X 
+                <span></span> $260
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="processor" value="290">
+                <span></span>AMD Ryzen 5 5600X
+                <span></span> $290
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="processor" value="150">
+                <span></span>Intel Core i5-10400F
+                <span></span> $150
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="processor" value="300">
+                <span></span>Intel Core i7-10700K
+                <span></span> $300
+              </label>
+            </li>
+          </ul>
         </div>
   
         <div class="card">
           <h3>Graphics Card</h3>
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="graphics" value="100">
+                <span></span>Nvidia GeForce GT 1030
+                <span></span> $100
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="graphics" value="540">
+                <span></span>Nvidia GeForce GTX 1660
+                <span></span> $540
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="graphics" value="1000">
+                <span></span>Nvidia GeForce RTX 3060 
+                <span></span> $1000
+              </label>
+            </li>
+
+            <li>
+              <label>
+                <input type="radio" name="graphics" value="150">
+                <span></span>AMD RX 550
+                <span></span> $150
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="graphics" value="660">
+                <span></span>AMD RX 580
+                <span></span> $660
+              </label>
+            </li>
+          </ul>
+          
         </div>
         
-        <div class="split">
 
-          <div class="card">
-            <h3>RAM</h3>
-            <ul>
-              <li>
-                <label>
-                  <input type="radio" name="ram" value="white">
-                  <span class="swatch" style="background-color:white"></span> White
-                </label>
-              </li>
-              <li>
-                <input type="radio" name="ram" value="8gb">
-              </li>
-              <li>
-                <input type="radio" name="ram" value="16gb">
-              </li>
-            </ul> 
-          </div>
-  
-          <div class="card">
-            <h3>Storage</h3>
-          </div>
-
+        <div class="card">
+          <h3>RAM</h3>
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="ram" value="30">
+                <span></span> 4GB
+                <span></span> $30
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="ram" value="50">
+                <span></span> 8GB
+                <span></span> $50
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="ram" value="90">
+                <span></span> 16GB
+                <span></span> $90
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="ram" value="130">
+                <span></span> 32GB
+                <span></span> $130
+              </label>
+            </li>
+          </ul>
         </div>
+  
+        <div class="card">
+          <h3>Storage</h3>
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="storage" value="40">
+                <span></span>SSD 120GB
+                <span></span> $40
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="storage" value="50">
+                <span></span>SSD 240GB
+                <span></span> $50
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="storage" value="90">
+                <span></span>SSD 480GB
+                <span></span> $90
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="storage" value="150">
+                <span></span>SSD 960GB
+                <span></span> $150
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="storage" value="30">
+                <span></span>HDD 512GB
+                <span></span> $30
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="storage" value="40">
+                <span></span>HDD 1TB
+                <span></span> $40
+              </label>
+          </ul>
+        </div>
+
 
       </div>
 

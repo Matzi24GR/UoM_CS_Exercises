@@ -5,8 +5,9 @@ body {
 .card {
     background-color: #F0F0F0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width: 90%;
+    width: 500px;
     height: 300px;
+    min-width: 500px;
     text-align: center;
     font-family: arial;
     border-radius: 10px;
@@ -30,23 +31,32 @@ body {
 
 .main {
     float: left;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+.main h3 {
+    border-radius: 0px 10px 0px 10px;
+    font-size: larger;
+    justify-self: flex-end;
+    margin: 0;
 }
 
 .components {
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    align-items: bas;
+    flex-direction: row;
     row-gap: 40px;
+    column-gap: 40px;
+    flex-wrap: wrap;
 }
 
-.split {
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    column-gap: 40px;
+.components .card {
+    width: 600px;
+    height: auto;
+    padding-bottom: 10px;
 }
 
 hr {
@@ -66,8 +76,30 @@ img {
     float: right;
 }
 
-.colors ul{
-    list-style:none; padding:0; margin: 0;}
+ul{
+    list-style:none; 
+    padding:0; 
+    margin: 0;
+    text-align: left;
+    margin-left: 40px;
+}
+
+label {
+    font-size: larger;
+    display:flex;
+    width: 95%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.components label span:last-child {
+    margin: auto;
+}
+
+.colors {
+    margin-left: 40px;
+    flex-grow: 1;
+}
 
 .colors li{
     margin: 0px;
