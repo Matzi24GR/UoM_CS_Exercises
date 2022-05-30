@@ -1,0 +1,39 @@
+body {
+    background-color: #DFDFDF;
+}
+
+h2 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #3d3dfac0;
+    color: white;
+}
+
+.card {
+    background-color: #F0F0F0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 500px;
+    height: auto;
+    text-align: center;
+    font-family: arial;
+    border-radius: 10px;
+    margin: auto;
+}
+
+hr {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.error {
+    color: red;
+}
+
+table {
+    width: 100%;
+}
+
+textarea {
+    width: 90%;
+    height: 100px;
+}
