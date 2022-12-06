@@ -1,0 +1,16 @@
+<IfModule mod_rewrite.c>
+#https://github.com/steampixel/simplePHPRouter/issues/20
+# enable apache rewrite engine
+RewriteEngine on
+
+# set your rewrite base
+RewriteBase /
+# Edit this in your init method too if you script lives in a subfolder
+
+# Deliver the folder or file directly if it exists on the server
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+ 
+# Push every request to index.php
+RewriteRule ^(.*)$ index.php/$1 [QSA]
+</IfModule>

@@ -1,0 +1,32 @@
+ version: "3"
+
+ services:
+
+    html:
+        build: ./frontend
+        container_name: bank_frontend
+        network_mode: "host"
+        depends_on:
+            - php
+
+    php:
+        build: ./backend
+        container_name: bank_backend
+        environment:
+            - DB_HOST=db
+            - DB_NAME=bankDB
+            - DB_USERNAME=root
+            - DB_PASSWORD=changethispassword
+        ports:
+            - '81:80'
+        depends_on:
+            - db
+
+
+    db:
+        image: mariadb
+        container_name: bank_db
+        restart: unless-stopped
+        environment:
+            MARIADB_ROOT_PASSWORD: 'changethispassword'
+
