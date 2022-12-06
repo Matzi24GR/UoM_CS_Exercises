@@ -4,3 +4,6 @@
 [submodule "6th_Semester/Mobile_App_Development/BasketballStats-androidApp"]
 	path = 6th_Semester/Mobile_App_Development/BasketballStats-androidApp
 	url = git@github.com:Matzi24GR/BasketballStats-androidApp.git
+[submodule "4th_Semester/Software_Engineering/foititopoli"]
+	path = 4th_Semester/Software_Engineering/foititopoli
+	url = git@github.com:UoM2021-CSC402-Team15/foititopoli.git
