@@ -7,3 +7,6 @@
 [submodule "4th_Semester/Software_Engineering/foititopoli"]
 	path = 4th_Semester/Software_Engineering/foititopoli
 	url = git@github.com:UoM2021-CSC402-Team15/foititopoli.git
+[submodule "5th_Semester/Artificial_Inteligence/Assignment#1-KnuthConjecture"]
+	path = "5th_Semester/Artificial_Inteligence/Assignment#1-KnuthConjecture"
+	url = https://github.com/Matzi24GR/KnuthConjecture
