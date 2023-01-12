@@ -1,0 +1,74 @@
+-- Εκκίνηση postgres με docker
+-- docker run --name postgres -e POSTGRES_PASSWORD=postgres -d -p 5432:5432 postgres
+
+-- Δημιουργία table με το gui του dbeaver αλλα με αντίστοιχη εντολή sql
+CREATE TABLE  docs (
+    id SERIAL PRIMARY KEY,
+    paragraph TEXT NOT NULL
+)
+
+-- import csv με το dbeaver.
+-- Column delimiter: \n
+-- Quote char: (κενό)
+-- Escape char: (κενό)
+-- Tables mapping: target column: paragraph
+
+-- για testing
+select
+	docs.*,
+	ts_rank_cd(to_tsvector(docs.paragraph), query) as rank
+from
+	docs,
+	to_tsvector(docs.paragraph) as document,
+	to_tsquery('bertolini') as query
+where query @@ document
+order by rank desc, id asc;
+
+-- Δημιουργία ευρετηρίου
+alter table docs add column if not exists "paragraph_tsv" tsvector;
+create index if not exists idx_fts_doc_vec on docs using gin(paragraph_tsv);
+UPDATE docs SET paragraph_tsv = to_tsvector(paragraph);
+
+-- Ερώτημα 1
+select
+	count(id)
+from
+	docs,
+	to_tsquery('love | world') as query
+where query @@ paragraph_tsv
+
+-- Ερώτημα 2
+select
+	count(id)
+from
+	docs,
+	to_tsquery('love & world') as query
+where query @@ paragraph_tsv
+
+-- Ερώτημα 3
+select
+	docs.*,
+	ts_rank_cd(paragraph_tsv, query) as rank
+from
+	docs,
+	to_tsquery('Cecil & Freddy') as query
+where query @@ paragraph_tsv
+order by rank desc, id asc;
+
+-- Ερώτημα 4
+select distinct lexeme, count(id)
+from
+	docs,
+	unnest(paragraph_tsv)
+group by lexeme
+order by count desc
+limit 10;
+
+-- Ερώτημα 5
+select lexeme, sum(cardinality(positions))
+from
+	docs,
+	unnest(paragraph_tsv)
+group by lexeme
+order by sum desc
+limit 10;
