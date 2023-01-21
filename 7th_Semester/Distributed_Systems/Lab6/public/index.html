@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Bank</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <div class="card">
+      <h2>Bank App</h2>
+      <p>Please fill in your credentials to login.</p>
+      <div>
+          <label>Username</label>
+          <input id="username" type="text" name="username">
+      </div>    
+      <div>
+          <label>Password</label>
+          <input id="password" type="password" name="password">
+      </div>
+      <div>
+          <button id="loginButton">Login</button>
+          <button id="logoutButton">Logout</button>
+      </div>
+      <h3>LoggedIn:</h3><h3 id="loggedIn">False</h3>
+      <h3>Balance:</h3><h3 id="balance">0</h3>
+      <div>
+        <input id="amount" type="number" name="amount">
+      </div>
+      <div>
+        <button id="withdrawButton">Withdraw</button>
+        <button id="depositButton">Deposit</button>
+      </div>
+    </div>
+    <script type="module" src="script.js"></script>
+    <noscript>You need to enable JavaScript to view the full site.</noscript>
+  </body>
+</html>

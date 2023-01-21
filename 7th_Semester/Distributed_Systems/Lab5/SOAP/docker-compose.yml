@@ -1,0 +1,13 @@
+ version: "3"
+
+ services:
+
+    db:
+        image: mariadb
+        container_name: bank_db
+        restart: unless-stopped
+        ports:
+          - "3306:3306"
+        environment:
+            MARIADB_ROOT_PASSWORD: 'changethispassword'
+

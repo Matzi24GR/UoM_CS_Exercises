@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Bank</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <div class="card">
+      <h2>Login</h2>
+      <p>Please fill in your credentials to login.</p>
+      <form onsubmit="login();return false;">
+        <div>
+            <label>Username</label>
+            <input id="username" type="text" name="username">
+        </div>    
+        <div>
+            <label>Password</label>
+            <input id="password" type="password" name="password">
+        </div>
+        <div>
+            <input type="submit" value="Login">
+        </div>
+      </form>
+      <h3>LoggedIn:</h3><h3 id="loggedIn">False</h3>
+      <h3>Balance:</h3><h3 id="balance">0</h3>
+      <form onsubmit="withdraw();return false;">
+        <div>
+          <input id="withdrawAmount" type="number" name="amount">
+            <input type="submit" value="Withdraw">
+        </div>
+      </form>
+      <form onsubmit="deposit();return false;">
+        <div>
+          <input id="depositAmount" type="number" name="amount">
+            <input type="submit" value="Deposit">
+        </div>
+      </form>
+    </div>
+    <script src="script.js" defer></script>
+    <noscript>You need to enable JavaScript to view the full site.</noscript>
+  </body>
+</html>
