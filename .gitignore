@@ -4,4 +4,5 @@
 .classpath
 **/.idea/
 *.iml
+*/firebase/
 desktop.ini
